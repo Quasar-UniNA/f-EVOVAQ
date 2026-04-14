@@ -1,7 +1,7 @@
 Problem Definition
 ==================
 
-.. automodule:: evovaq.problem
+.. automodule:: fevovaq.problem
     :members:
     :undoc-members:
     :show-inheritance:
