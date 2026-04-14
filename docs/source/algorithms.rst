@@ -4,37 +4,37 @@ Optimizers
 Evolutionary Algorithms
 _______________________
 
-.. automodule:: evovaq.GeneticAlgorithm
+.. automodule:: fevovaq.GeneticAlgorithm
     :members:
     :undoc-members:
     :show-inheritance:
 
 
-.. automodule:: evovaq.DifferentialEvolution
+.. automodule:: fevovaq.DifferentialEvolution
     :members:
     :undoc-members:
     :show-inheritance:
 
 
-.. automodule:: evovaq.MemeticAlgorithm
+.. automodule:: fevovaq.MemeticAlgorithm
     :members:
     :undoc-members:
     :show-inheritance:
 
 
-.. automodule:: evovaq.BigBangBigCrunch
+.. automodule:: fevovaq.BigBangBigCrunch
     :members:
     :undoc-members:
     :show-inheritance:
 
 
-.. automodule:: evovaq.ParticleSwarmOptimization
+.. automodule:: fevovaq.ParticleSwarmOptimization
     :members:
     :undoc-members:
     :show-inheritance:
 
 
-.. automodule:: evovaq.CHCAlgorithm
+.. automodule:: fevovaq.CHCAlgorithm
     :members:
     :undoc-members:
     :show-inheritance:
@@ -42,7 +42,7 @@ _______________________
 Local Search Algorithms
 _______________________
 
-.. automodule:: evovaq.HillClimbing
+.. automodule:: fevovaq.HillClimbing
     :members:
     :undoc-members:
     :show-inheritance:
