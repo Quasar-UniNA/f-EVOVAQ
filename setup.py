@@ -4,9 +4,9 @@ with open('README.md') as f:
     readme = f.read()
 
 setup(
-    name='evovaq',
+    name='fevovaq',
     packages=['fevovaq', 'fevovaq.tools'],
-    version='1.0',
+    version='1.0.1',
     description='fast-EVOlutionary algorithms toolbox for VAriational Quantum circuits',
     author='Angela Chiatto',
     long_description=readme,
