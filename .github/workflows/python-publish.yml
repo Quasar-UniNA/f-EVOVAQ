@@ -9,6 +9,7 @@ jobs:
   build-n-publish:
     name: Build and publish to PyPI
     runs-on: ubuntu-latest
+    environment: pypi
     permissions:
       # QUESTE DUE RIGHE SONO FONDAMENTALI PER IL TRUSTED PUBLISHING
       id-token: write
