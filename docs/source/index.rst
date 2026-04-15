@@ -20,11 +20,11 @@ fast-EVOlutionary algorithms-based toolbox for VAriational Quantum circuits (EVO
 
 Installation
 ======================
-You can install EVOVAQ via ``pip``:
+You can install f-EVOVAQ via ``pip``:
 
 .. code-block:: bash
 
-  pip install f-evovaq
+  pip install fevovaq
 
 Pip will handle all dependencies automatically and you will always install the latest version.
 
