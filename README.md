@@ -25,7 +25,7 @@ these algorithms and quantum libraries, such as Qiskit and Pennylane.
 You can install f-EVOVAQ via ``pip``:
 
 ```bash
-pip install f-evovaq
+pip install fevovaq
 ```
 
 Pip will handle all dependencies automatically and you will always install the latest version.
