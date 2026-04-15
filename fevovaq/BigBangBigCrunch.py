@@ -50,12 +50,10 @@ class BBBC(object):
         the best global solution.
 
         Args:
-           problem : :class:`~.Problem` to be solved.
-           population: A population of individuals as array of real parameters with (`pop_size`, `n_params`)
-                       shape.
-           fitness: A set of fitness values associated to the population as array of real values with (`pop_size`, )
-                   shape.
-           gen: Current generation number.
+            problem : :class:`~.Problem` to be solved.
+            population: A population of individuals as array of real parameters with (`pop_size`, `n_params`) shape.
+            fitness: A set of fitness values associated to the population as array of real values with (`pop_size`, ) shape.
+            gen: Current generation number.
 
        Returns:
            The offspring and fitness values obtained after evolution, and number of fitness evaluations completed
