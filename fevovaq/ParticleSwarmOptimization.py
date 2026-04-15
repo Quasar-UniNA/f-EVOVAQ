@@ -162,7 +162,7 @@ class PSO(object):
             if max_nfev is not None and tot_nfev >= max_nfev:
                 break
 
-            offspring, fit_offspring, nfev = self.evolve_population(problem, population, fitness)
+            offspring, fit_offspring, nfev = self.evolve_population(problem, population, fitness, gen)
             tot_nfev += nfev
 
             population[:] = offspring
