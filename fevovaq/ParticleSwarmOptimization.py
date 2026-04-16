@@ -53,19 +53,20 @@ class PSO(object):
 
     def evolve_population(self, problem, population, fitness, gen):
         """
-        Evolve the population by iteratively updating individual positions and velocities using swarm equations inspired
-        by social behavior.
+       Evolve the population by means of genetic operators.
 
-        Args:
-            problem : :class:`~.Problem` to be solved.
-            population: A population of individuals as array of real parameters with (`pop_size`, `n_params`) shape.
-            fitness: A set of fitness values associated to the population as array of real values with (`pop_size`, ) shape.
-            gen: Current generation number.
+       Args:
+           problem : :class:`~.Problem` to be solved.
+           population: A population of individuals as array of real parameters with (`pop_size`, `n_params`)
+                       shape.
+           fitness: A set of fitness values associated to the population as array of real values with (`pop_size`, )
+                   shape.
+           gen: Current generation number.
 
        Returns:
            The offspring and fitness values obtained after evolution, and number of fitness evaluations completed
            during the evolution.
-        """
+       """
         xp = problem.xp
         pop_size, dim = population.shape
 
